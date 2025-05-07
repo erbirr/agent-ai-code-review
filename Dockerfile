@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copiar código fuente
 COPY . .
 
+
 # Variables de entorno
 ENV PORT=8080
 
